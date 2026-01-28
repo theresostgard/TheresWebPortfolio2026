@@ -1,78 +1,36 @@
 :root {
   --font-sans: "Inter", system-ui, sans-serif;
 
+  /* Body bakgrund */
   --bg-layer-1: #faf8f7;
   --bg-layer-2: #f1ece9;
 
+  /* Text */
   --text-primary: #1c1c1e;
   --text-secondary: #5c5c66;
 
+  /* Accent färger */
   --accent: #8b5d73;      /* dusty rose */
   --accent-2: #6f7ba2;    /* muted lavender */
+
+  /* Border / skuggor */
   --border-soft: rgba(0,0,0,0.06);
+
+  /* Header – samma för light & dark */
+  --header-bg: linear-gradient(135deg, var(--accent), var(--accent-2));
+    --text-header: #f2f2f3; /* ljus text som kontrasterar */
 }
 
-
-/* Layered, feminine but professional background */
-body{
-  margin:0;
-  min-width:320px;
-  min-height:100vh;
-  font-family:var(--font-sans);
-    background:
-    radial-gradient(circle at 20% 20%, rgba(139,93,115,0.08), transparent 40%),
-    radial-gradient(circle at 80% 70%, rgba(111,123,162,0.06), transparent 40%),
-    linear-gradient(180deg, var(--bg-layer-1), var(--bg-layer-2));
-  color: var(--text-primary);
-}
-
-h1{
-  font-size:3.2em;
-  line-height:1.1;
-}
-
-button{
-  border-radius:8px;
-  border:1px solid transparent;
-  padding:.6em 1.2em;
-  font-size:1em;
-  font-weight:500;
-  font-family:inherit;
-  background-color:transparent;
-  cursor:pointer;
-  transition:all .18s ease;
-}
-button:hover{
-  border-color:rgba(0,0,0,0.06);
-}
-button:focus,button:focus-visible{
-  outline:4px auto -webkit-focus-ring-color;
-}
-
-a{
-  font-weight:500;
-  color:var(--accent);
-  text-decoration:inherit;
-}
-a:hover{
-  color:var(--accent-2);
-}
-
-/* Dark theme variant (used by ThemeToggle applying html.dark) */
+/* Dark mode – resten av sidan ändras, men inte headern */
 html.dark {
   --bg-layer-1: #0f1115;
   --bg-layer-2: #15171c;
 
   --text-primary: #f2f2f3;
   --text-secondary: #b4b4be;
-
-  --accent: #d1a1b5;   /* soft rose */
-  --accent-2: #9faad0; /* lavender glow */
-
-  --border-soft: rgba(255,255,255,0.08);
 }
 
 
-@media (prefers-color-scheme: light) {
-  :root{color:var(--text-dark)}
-}
+
+
+
