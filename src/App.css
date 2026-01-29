@@ -1,42 +1,7 @@
 /* =======================
    Variables / Themes
 ======================= */
-:root {
-  --font-sans: "Inter", system-ui, sans-serif;
-  --line-height: 1.5;
-  --weight-normal: 400;
 
-  /* Body bakgrund */
-   --bg-layer-1: #e0d6e8; /* mörkare ljus plommon/lila */
-  --bg-layer-2: #d8cfe4; /* mjukare gradient mot toppen */   
-
-  /* Text */
-  --text-primary: #1c1c1e;     
-  --text-secondary: #4a5058;   
-
-  /* Accent färger */
-    --accent: #4b3f72;   /* djup plommon */
-  --accent-2: #2f4f6b; /* petrol/blågrå */       
-
-  /* Border / skuggor */
-  --border-soft: rgba(0,0,0,0.06);
-
-  /* Header – samma för light & dark */
-  --header-bg: linear-gradient(135deg, var(--accent), var(--accent-2));
-  --text-header: #f2f2f3; /* ljus text som kontrasterar */
-}
-
-html.dark {
-  /* Dark mode – resten av sidan */
-  --bg-layer-1: #0f1115;
-  --bg-layer-2: #15171c;
-  --text-primary: #f2f2f3;
-  --text-secondary: #b4b4be;
-
-  /* Header – oförändrad */
-  --header-bg: linear-gradient(135deg, var(--accent), var(--accent-2));
-  --text-header: #f2f2f3;
-}
 
 /* =======================
    Base Styles

@@ -1,7 +1,3 @@
-:root {
-  --header-bg: linear-gradient(135deg, #703d57, #957186); /* mörkt lila/brunt */
-  --text-header: #fff;
-}
 
 .site-header {
   position: fixed;
