@@ -1,3 +1,6 @@
+/* ==============================
+   Light Mode
+============================== */
 :root {
   --font-sans: "Inter", system-ui, sans-serif;
 
@@ -9,29 +12,41 @@
   --text-primary: #2b2b2f; 
   --text-secondary: #6b6b73;
 
-  /* Accent (inte rosa/lila, utan champagne/taupe) */
-  --accent: #c2b8ad;      /* mjuk taupe */
-  --accent-2: #a9a6a1;    /* silvergrå */
+  /* Accent färger */
+  --accent-1: #c2b8ad;     /* mjuk taupe - knappar, viktiga element */
+  --accent-2: #e4cfa7;     /* varm sand/aprikos - hover, highlights */
+  --accent-3: #8b9aa9;     /* kall gråblå - mindre detaljer, dividers */
 
   /* Border / skugga */
   --border-soft: rgba(0,0,0,0.06);
+  --shadow-soft: 0 6px 20px rgba(0,0,0,0.1);
 
   /* Header */
-  --header-bg: linear-gradient(135deg, #cfc7bc, #b7b1a9);
+  --header-bg: linear-gradient(135deg, #d6d0c8, #bfb8ae); /* elegant beige/silver */
   --text-header: #2b2b2f;
 }
 
-
-/* Dark mode – resten av sidan ändras, men inte headern */
+/* ==============================
+   Dark Mode
+============================== */
 html.dark {
+  /* Bakgrunder */
   --bg-layer-1: #0f1114;
-  --bg-layer-2: #171a1f;
+  --bg-layer-2: #17171c;
 
+  /* Text */
   --text-primary: #f1f1f2;
   --text-secondary: #b5b6ba;
+
+  /* Accent färger */
+  --accent-1: #b8afa5;     /* taupe */
+  --accent-2: #d6c5a7;     /* varm sand/aprikos */
+  --accent-3: #9fa0a0;     /* kall gråblå / mindre detaljer */
+
+  /* Border / skugga */
+  --border-soft: rgba(255,255,255,0.06);
+  --shadow-soft: 0 6px 20px rgba(0,0,0,0.3);
+
+  /* Header */
+  --header-bg: linear-gradient(135deg, #d6d0c8, #bfb8ae); /* samma som light */
 }
-
-
-
-
-
