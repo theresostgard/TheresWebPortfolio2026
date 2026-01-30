@@ -1,20 +1,20 @@
-(/* Hero background and layout */)
 .hero {
 	display: flex;
 	align-items: center;
 	justify-content: center;
- 	min-height: 100vh;
+ 	min-height: calc(100vh - 100px);
  	color: #fff;
  	background-size: cover;
  	background-position: center;
  	background-repeat: no-repeat;
- 	padding: 12rem 1.25rem;
+ 	padding: 0 1.25rem;
  	/* make full-bleed when placed inside a centered container */
  	width: 100vw;
  	margin-left: calc(50% - 50vw);
  	margin-right: calc(50% - 50vw);
  	position: relative;
  	overflow: hidden;
+    margin-top: 0;
 }
 
 .hero-bg {
