@@ -1,0 +1,66 @@
+(/* Hero background and layout */)
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+ 	min-height: 100vh;
+ 	color: #fff;
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	padding: 12rem 1.25rem;
+ 	/* make full-bleed when placed inside a centered container */
+ 	width: 100vw;
+ 	margin-left: calc(50% - 50vw);
+ 	margin-right: calc(50% - 50vw);
+ 	position: relative;
+ 	overflow: hidden;
+}
+
+.hero-bg {
+ 	position: absolute;
+ 	left: 0;
+ 	top: 0;
+ 	width: 100%;
+ 	height: 100%;
+ 	object-fit: cover;
+ 	object-position: center;
+ 	z-index: 0;
+}
+
+.hero-inner {
+ 	max-width: 1200px;
+ 	text-align: center;
+ 	background: rgba(0,0,0,0.12);
+ 	padding: 6rem;
+ 	border-radius: 10px;
+ 	position: relative;
+ 	z-index: 1;
+}
+
+.hero-title {
+ 	font-size: 4.5rem;
+ 	margin: 0 0 0.5rem 0;
+ 	text-shadow: 0 2px 6px rgba(0,0,0,0.45);
+}
+
+.hero-sub {
+	font-size: 1.25rem;
+	margin: 0 0 1.25rem 0;
+}
+
+.btn {
+	display: inline-block;
+	background: #fff;
+	color: #111;
+	padding: 0.6rem 1rem;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+@media (min-width: 768px) {
+	.hero-title { font-size: 6.5rem; }
+	.hero-sub { font-size: 1.75rem; }
+	.hero-inner { padding: 7rem; }
+}
+
