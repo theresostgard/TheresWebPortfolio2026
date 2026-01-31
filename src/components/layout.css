@@ -14,7 +14,8 @@ html, body {
 .site-main{
     flex:1;
     padding: 0;
-    margin-top: 10rem
+    margin-top: 10rem;
+    background: var(--bg-layer-2);
 }
 .container{
     max-width:1000px;
