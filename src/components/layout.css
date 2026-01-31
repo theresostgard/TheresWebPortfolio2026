@@ -15,10 +15,9 @@ html, body {
     flex:1;
     padding: 0;
     margin-top: 10rem;
-    background: var(--bg-layer-2);
 }
 .container{
-    max-width:1000px;
+    max-width:1200px;
     margin:0 auto;
     padding:0;
 }
@@ -33,3 +32,4 @@ html, body {
     background: var(--footer-bg);
     width: 100%;
 }
+
