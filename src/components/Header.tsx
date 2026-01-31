@@ -1,20 +1,36 @@
 import { NavLink } from 'react-router-dom'
+import { useState } from 'react'
 import './header.css'
 import logo from '../assets/Logga-Theres-removebg-preview.png'
 
 export default function Header() {
+  const [open, setOpen] = useState(false)
+
   return (
     <header className="site-header">
       <div className="container header-inner">
         <NavLink to="/" className="logo">
           <img src={logo} alt="Theres Östgård" />
         </NavLink>
-        <nav className="main-nav">
-          <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>
-          <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>About</NavLink>
-          <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')}>Projects</NavLink>
-          <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>Contact</NavLink>
+
+        <button
+          className={`hamburger ${open ? 'is-open' : ''}`}
+          aria-label="Toggle navigation"
+          aria-expanded={open}
+          onClick={() => setOpen((s) => !s)}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+
+        <nav className={`main-nav ${open ? 'open' : ''}`}>
+          <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : '')} onClick={() => setOpen(false)}>Home</NavLink>
+          <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')} onClick={() => setOpen(false)}>About</NavLink>
+          <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')} onClick={() => setOpen(false)}>Projects</NavLink>
+          <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')} onClick={() => setOpen(false)}>Contact</NavLink>
         </nav>
+
         <div className="header-right">
           <div className="social-links">
             <a href="https://github.com/theresostgard" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
