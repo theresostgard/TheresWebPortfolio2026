@@ -1,5 +1,6 @@
 import ProjectCard from "../components/ui/ProjectCard";
 
+
 const projects = [
   {
     id: "p1",
@@ -42,12 +43,13 @@ export default function Projects() {
   return (
     <section className="projects-section">
       <h1 className="projects-title">Projects</h1>
-
       <div className="projects-grid">
-        {projects.map(project => (
-          <ProjectCard key={project.id} project={project} />
+        {projects.map(p => (
+          <ProjectCard key={p.id} project={p} />
         ))}
       </div>
     </section>
   );
 }
+
+

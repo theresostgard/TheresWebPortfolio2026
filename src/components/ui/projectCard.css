@@ -84,3 +84,25 @@
 .btn:hover{
   background:var(--accent-4);
 }
+
+.project-media {
+  width: 100%;
+  height: 180px;               /* bestämd höjd på bilden */
+  overflow: hidden;            /* klipper hörn som sticker ut */
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.project-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;           /* fyller div:en utan att sträcka bilden */
+  object-position: center;     /* centrerar bilden */
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-media img {
+  transform: scale(1.05);      /* liten hover-zoom-effekt */
+}
+
+
