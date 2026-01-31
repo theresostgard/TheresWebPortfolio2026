@@ -19,9 +19,6 @@ export default function Header() {
           aria-expanded={open}
           onClick={() => setOpen((s) => !s)}
         >
-          <span />
-          <span />
-          <span />
         </button>
 
         <nav className={`main-nav ${open ? 'open' : ''}`}>
