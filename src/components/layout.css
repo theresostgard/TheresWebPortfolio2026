@@ -1,4 +1,34 @@
-.site-root{display:flex;flex-direction:column;min-height:100vh;padding-top:64px}
-.site-main{flex:1;padding:2rem 0}
-.container{max-width:1000px;margin:0 auto;padding:0 1rem}
-.site-footer{border-top:1px solid rgba(0,0,0,0.06);padding:1.5rem 0;text-align:center;color:rgba(0,0,0,0.7);margin-top:auto}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+.site-root{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+.site-main{
+    flex:1;
+    padding: 0;
+    margin-top: 10rem
+}
+.container{
+    max-width:1000px;
+    margin:0 auto;
+    padding:0;
+}
+.site-footer{
+    border-top:2px solid var(--border-soft);
+    padding:1.5rem 0;
+    text-align:center;
+    color: var(--text-footer);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    background: var(--footer-bg);
+    width: 100%;
+}
