@@ -78,11 +78,11 @@
 }
 
 .skill-chip {
-  background: var(--accent-2);
+  background: var(--accent-4);
   padding: 0.5rem 1rem;
   border-radius: 999px;
   font-weight: 600;
-  color: var(--text-primary);
+  color: var(--text-tertiary);
   font-size: 0.95rem;
   transition: transform 0.2s ease;
 }

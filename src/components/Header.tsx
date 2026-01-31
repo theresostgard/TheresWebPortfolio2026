@@ -1,6 +1,5 @@
 import { NavLink } from 'react-router-dom'
 import './header.css'
-import ThemeToggle from './ui/ThemeToggle'
 import logo from '../assets/Logga-Theres-removebg-preview.png'
 
 export default function Header() {
@@ -29,7 +28,7 @@ export default function Header() {
               </svg>
             </a>
           </div>
-          <ThemeToggle />
+
         </div>
       </div>
     </header>

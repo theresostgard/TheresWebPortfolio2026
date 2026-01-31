@@ -11,6 +11,7 @@
   /* Text */
   --text-primary: #2b2b2f;
   --text-secondary: #6b6b73;
+   --text-tertiary: #fff;
 
   /* Accent */
   --accent-1: #959498; /* bas från bilden */
@@ -40,6 +41,7 @@ html.dark {
 
   --text-primary: #f1f1f2;
   --text-secondary: #b5b6ba;
+ 
 
   --accent-1: #959498;
   --accent-2: #cfc9c1;
