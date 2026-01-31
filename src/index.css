@@ -5,48 +5,48 @@
   --font-sans: "Inter", system-ui, sans-serif;
 
   /* Bakgrunder */
-  --bg-layer-1: #f5f3ef;   /* varm beige */
-  --bg-layer-2: #ece8e2;   /* ljus sand */
+  --bg-layer-1: #f5f3ef;
+  --bg-layer-2: #ece8e2;
 
   /* Text */
-  --text-primary: #2b2b2f; 
+  --text-primary: #2b2b2f;
   --text-secondary: #6b6b73;
 
-  /* Accent färger */
-  --accent-1: #c2b8ad;     /* mjuk taupe - knappar, viktiga element */
-  --accent-2: #e4cfa7;     /* varm sand/aprikos - hover, highlights */
-  --accent-3: #8b9aa9;     /* kall gråblå - mindre detaljer, dividers */
+  /* Accent */
+  --accent-1: #959498; /* bas från bilden */
+  --accent-2: #e8e3dc;  /* varm feminin highlight */
+  --accent-3: #8fa3b3; /* tech-blå */
+  --accent-4: #6f7074; /* hover / active */
 
   /* Border / skugga */
   --border-soft: rgba(0,0,0,0.06);
   --shadow-soft: 0 6px 20px rgba(0,0,0,0.1);
 
   /* Header */
-  --header-bg: linear-gradient(135deg, #d6d0c8, #bfb8ae); /* elegant beige/silver */
+  --header-bg: linear-gradient(135deg, #959498, #c9c9cb, #f5f6f7);
   --text-header: #2b2b2f;
+
+  --footer-bg: linear-gradient(135deg, #959498, #c9c9cb, #f5f6f7);
+  --text-footer: #2b2b2f;
 }
+
 
 /* ==============================
    Dark Mode
 ============================== */
 html.dark {
-  /* Bakgrunder */
   --bg-layer-1: #0f1114;
   --bg-layer-2: #17171c;
 
-  /* Text */
   --text-primary: #f1f1f2;
   --text-secondary: #b5b6ba;
 
-  /* Accent färger */
-  --accent-1: #b8afa5;     /* taupe */
-  --accent-2: #d6c5a7;     /* varm sand/aprikos */
-  --accent-3: #9fa0a0;     /* kall gråblå / mindre detaljer */
+  --accent-1: #959498;
+  --accent-2: #cfc9c1;
+  --accent-3: #8fa3b3;
+  --accent-4: #b0b0b3;
 
-  /* Border / skugga */
-  --border-soft: rgba(255,255,255,0.06);
-  --shadow-soft: 0 6px 20px rgba(0,0,0,0.3);
-
-  /* Header */
-  --header-bg: linear-gradient(135deg, #d6d0c8, #bfb8ae); /* samma som light */
+  --header-bg: linear-gradient(135deg, #2b2c30, #959498);
 }
+
+
