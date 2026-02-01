@@ -61,7 +61,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: .5rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
 }
 
 .tech {
@@ -71,6 +73,7 @@
   font-size: .75rem;
   font-weight: 600;
   color: var(--text-tertiary);
+  display: inline-block;
 }
 
 /* Låser knappen längst ner till vänster */
@@ -89,11 +92,7 @@
   text-decoration: none;
   font-size: .85rem;
   transition: background .2s ease;
-  margin-top: 2rem;
-}
 
-.btn:hover {
-  background: var(--accent-4);
 }
 
 /* Media för bilden */

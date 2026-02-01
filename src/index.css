@@ -1,10 +1,7 @@
-/* ==============================
-   Light Mode
-============================== */
 :root {
   --font-sans: "Inter", system-ui, sans-serif;
 
-  /* Bakgrunder */
+  /* Backgrounds */
   --bg-layer-1: #f5f3ef;
   --bg-layer-2: #ece8e2;
 
@@ -14,12 +11,12 @@
    --text-tertiary: #fff;
 
   /* Accent */
-  --accent-1: #959498; /* bas från bilden */
-  --accent-2: #e8e3dc;  /* varm feminin highlight */
-  --accent-3: #8fa3b3; /* tech-blå */
-  --accent-4: #6f7074; /* hover / active */
+  --accent-1: #959498; 
+  --accent-2: #e8e3dc;  
+  --accent-3: #8fa3b3; 
+  --accent-4: #6f7074; 
 
-  /* Border / skugga */
+  /* Border */
   --border-soft: rgba(0,0,0,0.06);
   --shadow-soft: 0 6px 20px rgba(0,0,0,0.1);
 
@@ -31,27 +28,6 @@
   --text-footer: #2b2b2f;
 }
 
-
-/* ==============================
-   Dark Mode
-============================== */
-html.dark {
-  --bg-layer-1: #0f1114;
-  --bg-layer-2: #17171c;
-
-  --text-primary: #f1f1f2;
-  --text-secondary: #b5b6ba;
- 
-
-  --accent-1: #959498;
-  --accent-2: #cfc9c1;
-  --accent-3: #8fa3b3;
-  --accent-4: #b0b0b3;
-
-  --header-bg: linear-gradient(135deg, #2b2c30, #959498);
-}
-
-/* t.ex. i index.css eller global.css */
 body, html, #root {
   height: 100%;
   margin: 0;
@@ -60,14 +36,14 @@ body, html, #root {
   font-family: var(--font-sans);
 }
 
-/* Optional: overlay för mjukare kontrast */
+/* Optional: overlay for softer contrast */
 body::before {
   content: '';
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(255, 255, 255, 0.15); /* vit mjuk overlay */
-  pointer-events: none; /* klickbara element fungerar som vanligt */
+  background: rgba(255, 255, 255, 0.15); 
+  pointer-events: none; 
   z-index: 0;
 }
 
