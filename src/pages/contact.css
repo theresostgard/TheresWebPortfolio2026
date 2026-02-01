@@ -80,6 +80,23 @@
     color:white; 
     border-color:transparent }
 
+    .status {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.status.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
 @media (max-width: 880px){
   .contact-grid{ grid-template-columns:1fr; }
   .actions{ justify-content:flex-start }

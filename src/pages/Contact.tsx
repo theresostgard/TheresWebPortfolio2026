@@ -69,11 +69,18 @@ export default function Contact() {
             <textarea name="message" rows={6} required />
           </label>
 
-          <div className="actions">
-            <button type="submit" className="btn primary">Send message</button>
-          </div>
+        <div className="actions">
+  <button type="submit" className="btn primary">Send message</button>
+</div>
 
-          {status && <p className="status">{status}</p>}
+{status && (
+  <p 
+    className={`status ${status.includes("successfully") ? "success" : "error"}`}
+  >
+    {status}
+  </p>
+)}
+
         </form>
       </section>
     </main>
