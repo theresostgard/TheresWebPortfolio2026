@@ -1,0 +1,12 @@
+{
+  "about": {
+    "title": "Sobre mí",
+    "intro1": "Soy un desarrollador full-stack .NET con experiencia práctica en la creación de aplicaciones web y móviles usando React, TypeScript y React Native.",
+    "intro2": "Mi experiencia como profesor me ha dado sólidas habilidades de comunicación y la capacidad de comprender las necesidades de los usuarios, colaborar eficazmente con equipos y convertir problemas complejos en soluciones intuitivas y mantenibles.",
+    "intro3": "Disfruto creando código bien estructurado e interfaces que sean tanto funcionales como fáciles de usar.",
+    "skillsTitle": "Habilidades",
+    "skills": [
+      ".NET","C#","EF Core","SQL Server","React","React Native","TypeScript","CSS","Diseño responsivo","Accesibilidad","Flujos ágiles","Mentoría","Colaboración","Resolución de problemas"
+    ]
+  }
+}

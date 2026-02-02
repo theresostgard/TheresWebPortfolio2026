@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import { useState, useRef, useEffect } from 'react'
 import './header.css'
+import LanguageToggle from './ui/LanguageToggle'
 import logo from '../assets/Logga-Theres-removebg-preview.png'
 
 export default function Header() {
@@ -56,6 +57,7 @@ export default function Header() {
           <NavLink to="/contact" onClick={() => setOpen(false)}>Contact</NavLink>
         </nav>
          <div className="header-right">
+          <LanguageToggle />
           <div className="social-links">
             <a href="https://github.com/theresostgard" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <svg viewBox="0 0 24 24" width="25" height="25" fill="currentColor" aria-hidden="true">

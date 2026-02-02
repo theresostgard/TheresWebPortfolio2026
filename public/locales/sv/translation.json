@@ -1,0 +1,12 @@
+{
+  "about": {
+    "title": "Om mig",
+    "intro1": "Jag är en fullstack .NET-utvecklare med praktisk erfarenhet av att bygga webb- och mobilapplikationer med React, TypeScript och React Native.",
+    "intro2": "Min bakgrund som lärare har gett mig goda kommunikationsfärdigheter och förmågan att förstå användarnas behov, samarbeta effektivt i team och omvandla komplexa problem till intuitiva, underhållbara lösningar.",
+    "intro3": "Jag tycker om att skapa välstrukturerad kod och gränssnitt som både är funktionella och användarvänliga.",
+    "skillsTitle": "Färdigheter",
+    "skills": [
+      ".NET","C#","EF Core","SQL Server","React","React Native","TypeScript","CSS","Responsiv design","Tillgänglighet","Agila arbetssätt","Mentorskap","Samarbete","Problemlösning"
+    ]
+  }
+}
