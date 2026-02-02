@@ -3,8 +3,10 @@ import { useState, useRef, useEffect } from 'react'
 import './header.css'
 import LanguageToggle from './ui/LanguageToggle'
 import logo from '../assets/Logga-Theres-removebg-preview.png'
+import { useTranslation } from 'react-i18next'
 
 export default function Header() {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false)
 
   const buttonRef = useRef<HTMLButtonElement | null>(null)
@@ -51,10 +53,10 @@ export default function Header() {
           ref={navRef}
           className={`main-nav ${open ? 'open' : ''}`}
         >
-          <NavLink to="/" end onClick={() => setOpen(false)}>Home</NavLink>
-          <NavLink to="/about" onClick={() => setOpen(false)}>About</NavLink>
-          <NavLink to="/projects" onClick={() => setOpen(false)}>Projects</NavLink>
-          <NavLink to="/contact" onClick={() => setOpen(false)}>Contact</NavLink>
+          <NavLink to="/" end onClick={() => setOpen(false)}>{t('nav.home')}</NavLink>
+          <NavLink to="/about" onClick={() => setOpen(false)}>{t('nav.about')}</NavLink>
+          <NavLink to="/projects" onClick={() => setOpen(false)}>{t('nav.projects')}</NavLink>
+          <NavLink to="/contact" onClick={() => setOpen(false)}>{t('nav.contact')}</NavLink>
         </nav>
          <div className="header-right">
           <LanguageToggle />

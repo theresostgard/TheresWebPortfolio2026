@@ -9,4 +9,62 @@
       ".NET","C#","EF Core","SQL Server","React","React Native","TypeScript","CSS","Responsiv design","Tillgänglighet","Agila arbetssätt","Mentorskap","Samarbete","Problemlösning"
     ]
   }
+  ,
+  "nav": {
+    "home": "Hem",
+    "about": "Om",
+    "projects": "Projekt",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Theres - fullstack .NET-utvecklare",
+    "subtitle": "Jag bygger digitala lösningar med en mängd teknologier.",
+    "cta": "Se projekt"
+  },
+  "projects": {
+    "title": "Projekt",
+    "viewRepo": "Visa projekt på GitHub",
+    "items": {
+      "p1": {
+        "title": "Multiplication App",
+        "description": "En app för att öva multiplikation med ett lekfullt gränssnitt. Fokuserar på inlärning genom repetition och användes för att utforska React Native."
+      },
+      "p2": {
+        "title": "ConsoleUtilityHub",
+        "description": "En modulär konsolapplikation med verktyg som kalkylator, figurer och sten sax påse. Byggd med Spectre.Console för bättre konsol-UI."
+      },
+      "p3": {
+        "title": "ChatterBox",
+        "description": "En enkel chattbot-webbapplikation för kundsupport med definierad persona och begränsningar i svar. Azure OpenAI används för botfunktionaliteten."
+      },
+      "p4": {
+        "title": "SCB Charts",
+        "description": "En skalbar webbapplikation som visar data från Statistiska centralbyrån med interaktiva diagram. Uppgiften fokuserade på API-integration och datavisualisering."
+      },
+      "p5": {
+        "title": "ElevatorSimulator",
+        "description": "En simulering av ett hissystem i en skyskrapa. Visar upp principer från Clean Architecture i en .NET-backend med React-frontend."
+      },
+      "p6": {
+        "title": "Web Portfolio",
+        "description": "Min personliga portföljsida som visar projekt och färdigheter. Byggd med React, TypeScript och Vite."
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "lead": "Jag vill gärna höra om ditt projekt, idéer eller frågor, eller har du ett jobberbjudande? — skicka ett meddelande så återkommer jag så snart jag kan.",
+    "getInTouch": "Ta kontakt",
+    "emailNote": "Föredrar du e-post? Skicka ett meddelande till {{email}}.",
+    "phone": "Telefon:",
+    "location": "Plats:",
+    "labels": {
+      "name": "Namn",
+      "email": "E-post",
+      "message": "Meddelande"
+    },
+    "send": "Skicka meddelande",
+    "success": "Meddelande skickat!",
+    "error": "Misslyckades med att skicka meddelandet. Se konsolen för detaljer."
+  }
 }

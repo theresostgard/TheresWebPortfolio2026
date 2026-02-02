@@ -1,14 +1,16 @@
 import { Link } from 'react-router-dom'
 import './hero.css'
+import { useTranslation } from 'react-i18next'
 
 export default function Hero() {
+  const { t } = useTranslation();
   return (
     <section className="hero">
       <div className="hero-inner">
-        <h1 className="hero-title">Theres - fullstack .NET developer</h1>
-        <p className="hero-sub">I build digital solutions with a variety of technologies.</p>
+        <h1 className="hero-title">{t('hero.title')}</h1>
+        <p className="hero-sub">{t('hero.subtitle')}</p>
         <p>
-          <Link to="/projects" className="hero-btn">View projects</Link>
+          <Link to="/projects" className="hero-btn">{t('hero.cta')}</Link>
         </p>
       </div>
     </section>
