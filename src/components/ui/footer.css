@@ -5,9 +5,11 @@
 
 .footer-inner {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	gap: 1.5rem;
+	flex-wrap: wrap;
+	position: relative;
 }
 
 .footer-left,
@@ -15,6 +17,8 @@
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
+  align-items: center;
+  text-align: center;
 }
 
 .contact a {
@@ -48,7 +52,6 @@
 }
 
 .back-to-top {
-	margin-top: 0.25rem;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -61,6 +64,12 @@
 	color: inherit;
 	cursor: pointer;
 	transition: transform .12s ease, box-shadow .12s ease, background .12s ease;
+
+	/* place on the right side of the footer on desktop */
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .back-to-top svg {
@@ -71,7 +80,7 @@
 
 .back-to-top:hover,
 .back-to-top:focus {
-	transform: translateY(-3px);
+	transform: translateY(calc(-50% - 3px));
 	box-shadow: 0 6px 14px rgba(0,0,0,0.12);
 }
 
@@ -89,5 +98,12 @@
 	.footer-left,
 	.footer-right {
 		align-items: center;
+	}
+
+	/* keep button inline on small screens */
+	.back-to-top {
+		position: static;
+		transform: none;
+		margin-top: 0.25rem;
 	}
 }
