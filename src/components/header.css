@@ -259,4 +259,9 @@
     border-radius: 8px;
     display: block;
   }
+
+  /* add extra right margin for social links on small screens */
+  .header-right {
+    margin-right: 3.5rem;
+  }
 }
