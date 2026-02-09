@@ -1,4 +1,5 @@
 import "./projectCard.css";
+import { useTranslation } from 'react-i18next';
 
 type Project = {
   id: string;
@@ -9,6 +10,7 @@ type Project = {
 };
 
 export default function ProjectCard({ project }: { project: Project }) {
+  const { t } = useTranslation();
   const headingId = `project-title-${project.id}`;
 
   return (
@@ -42,9 +44,9 @@ export default function ProjectCard({ project }: { project: Project }) {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label={`View ${project.title} repository on GitHub`}
+              aria-label={t('projects.viewRepo', { title: project.title })}
             >
-              View project on GitHub
+              {t('projects.viewRepo')}
             </a>
           </div>
         )}

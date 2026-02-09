@@ -1,0 +1,78 @@
+{
+  "about": {
+    "title": "About Me",
+    "intro1": "I'm a full-stack .NET developer with hands-on experience building web and mobile applications using React, TypeScript, and React Native.",
+    "intro2": "My background as a teacher has given me strong communication skills and the ability to understand users’ needs, collaborate effectively with teams, and turn complex problems into intuitive, maintainable solutions.",
+    "intro3": "I enjoy crafting well-structured code and creating interfaces that are both functional and user-friendly.",
+    "skillsTitle": "Skills",
+    "skills": [
+      ".NET","C#","EF Core","SQL Server","React","React Native","TypeScript","CSS","Responsive Design","Accessibility","Agile Workflows","Mentoring","Collaboration","Problem-Solving"
+    ]
+  }
+  ,
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Theres - fullstack .NET developer",
+    "subtitle": "I build digital solutions with a variety of technologies.",
+    "cta": "View projects"
+  },
+  "projects": {
+    "title": "Projects",
+    "viewRepo": "View project on GitHub"
+    ,
+    "items": {
+      "p1": {
+        "title": "Multiplication App",
+        "description": "A multiplication practice app with a playful UI. Focuses on learning through repetition and was a project to explore React Native."
+      },
+      "p2": {
+        "title": "ConsoleUtilityHub",
+        "description": "A modular console application with utilities like Calculator, Shapes and Rock Paper Scissors. Built with Spectre.Console for enhanced console UI."
+      },
+      "p3": {
+        "title": "ChatterBox",
+        "description": "A basic customer support chatbot web app with persona and answer limitations. Azure OpenAI is used for bot functionality."
+      },
+      "p4": {
+        "title": "SCB Charts",
+        "description": "A scalable web application displaying data from Statistics Sweden with interactive charts, focusing on API integration and visualization as well as team collaboration."
+      },
+      "p5": {
+        "title": "ElevatorSimulator",
+        "description": "A simulation of an elevator system in a high-rise building. Demonstrates Clean Architecture principles in a .NET backend with a React frontend."
+      },
+      "p6": {
+        "title": "Web Portfolio",
+        "description": "My personal portfolio website showcasing projects and skills. Built with React, TypeScript, and Vite."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "I'd love to hear about your project, your ideas or your questions, or do you have a job offer? — send a message and I'll get back to you shortly.",
+    "getInTouch": "Get in touch",
+    "emailNote": "Prefer email? Send a note to {{email}}.",
+    "phone": "Phone:",
+    "location": "Location:",
+    "labels": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message"
+    },
+    "send": "Send message",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. See console for details."
+  }
+,
+  "footer": {
+    "ariaLabel": "Site footer",
+    "socialNav": "Footer social links",
+    "resume": "Resume",
+    "backToTop": "Back to top"
+  }
+}

@@ -1,9 +1,12 @@
 import { NavLink } from 'react-router-dom'
 import { useState, useRef, useEffect } from 'react'
 import './header.css'
+import LanguageToggle from './ui/LanguageToggle'
 import logo from '../assets/Logga-Theres-removebg-preview.png'
+import { useTranslation } from 'react-i18next'
 
 export default function Header() {
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false)
 
   const buttonRef = useRef<HTMLButtonElement | null>(null)
@@ -50,12 +53,13 @@ export default function Header() {
           ref={navRef}
           className={`main-nav ${open ? 'open' : ''}`}
         >
-          <NavLink to="/" end onClick={() => setOpen(false)}>Home</NavLink>
-          <NavLink to="/about" onClick={() => setOpen(false)}>About</NavLink>
-          <NavLink to="/projects" onClick={() => setOpen(false)}>Projects</NavLink>
-          <NavLink to="/contact" onClick={() => setOpen(false)}>Contact</NavLink>
+          <NavLink to="/" end onClick={() => setOpen(false)}>{t('nav.home')}</NavLink>
+          <NavLink to="/about" onClick={() => setOpen(false)}>{t('nav.about')}</NavLink>
+          <NavLink to="/projects" onClick={() => setOpen(false)}>{t('nav.projects')}</NavLink>
+          <NavLink to="/contact" onClick={() => setOpen(false)}>{t('nav.contact')}</NavLink>
         </nav>
          <div className="header-right">
+          <LanguageToggle />
           <div className="social-links">
             <a href="https://github.com/theresostgard" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <svg viewBox="0 0 24 24" width="25" height="25" fill="currentColor" aria-hidden="true">
