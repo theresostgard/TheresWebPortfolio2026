@@ -1,8 +1,8 @@
 {
   "about": {
     "title": "Om mig",
-    "intro1": "Jag är en fullstack .NET-utvecklare med praktisk erfarenhet av att bygga webb- och mobilapplikationer med React, TypeScript och React Native.",
-    "intro2": "Min bakgrund som lärare har gett mig goda kommunikationsfärdigheter och förmågan att förstå användarnas behov, samarbeta effektivt i team och omvandla komplexa problem till intuitiva, underhållbara lösningar.",
+    "intro1": "Jag är en fullstack .NET-utvecklare med erfarenhet av att bygga webb- och mobilapplikationer med React, TypeScript och React Native.",
+    "intro2": "Min bakgrund som lärare har gett mig goda kommunikationsfärdigheter och förmågan att förstå användarnas behov, samarbeta effektivt i team och omvandla komplexa problem till underhållbara lösningar.",
     "intro3": "Jag tycker om att skapa välstrukturerad kod och gränssnitt som både är funktionella och användarvänliga.",
     "skillsTitle": "Färdigheter",
     "skills": [
@@ -18,7 +18,7 @@
   },
   "hero": {
     "title": "Theres - fullstack .NET-utvecklare",
-    "subtitle": "Jag bygger digitala lösningar med en mängd teknologier.",
+    "subtitle": "Jag bygger digitala lösningar med ett flertal olika teknologier.",
     "cta": "Se projekt"
   },
   "projects": {
@@ -39,7 +39,7 @@
       },
       "p4": {
         "title": "SCB Charts",
-        "description": "En skalbar webbapplikation som visar data från Statistiska centralbyrån med interaktiva diagram. Uppgiften fokuserade på API-integration och datavisualisering."
+        "description": "En skalbar webbapplikation som visar data från Statistiska centralbyrån med interaktiva diagram. Uppgiften fokuserade på API-integration och datavisualisering samt samarbete i team."
       },
       "p5": {
         "title": "ElevatorSimulator",
@@ -53,7 +53,7 @@
   },
   "contact": {
     "title": "Kontakt",
-    "lead": "Jag vill gärna höra om ditt projekt, idéer eller frågor, eller har du ett jobberbjudande? — skicka ett meddelande så återkommer jag så snart jag kan.",
+    "lead": "Jag vill gärna höra om ditt projekt, dina idéer eller dina frågor, eller har du ett jobberbjudande? — skicka ett meddelande så återkommer jag så snart jag kan.",
     "getInTouch": "Ta kontakt",
     "emailNote": "Föredrar du e-post? Skicka ett meddelande till {{email}}.",
     "phone": "Telefon:",
@@ -66,5 +66,12 @@
     "send": "Skicka meddelande",
     "success": "Meddelande skickat!",
     "error": "Misslyckades med att skicka meddelandet. Se konsolen för detaljer."
+  }
+,
+  "footer": {
+    "ariaLabel": "Sidfot",
+    "socialNav": "Länkar i sidfoten",
+    "resume": "CV",
+    "backToTop": "Till toppen"
   }
 }
