@@ -51,7 +51,7 @@ Accessibility has been a key focus in this project:
 ## 🚀 Deployment
 
 The portfolio is deployed on **Vercel** with a custom domain. 
-www.theresostgard.com
+theresostgard.com
 
 Production build is created using:
 
