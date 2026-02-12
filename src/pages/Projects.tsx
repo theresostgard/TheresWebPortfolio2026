@@ -6,7 +6,6 @@ const projectsMeta = [
   { id: "p2", tech: ["C#", ".NET", "Spectre.Console", "EF Core","SQL Server"], link: "https://github.com/theresostgard/ConsoleUtilityHub" },
   { id: "p3", tech: ["C#", ".NET", "Azure OpenAI", "React", "TypeScript", "CSS"], link: "https://github.com/theresostgard/ChatterBox" },
   { id: "p4", tech: ["TypeScript", "API", "React", "Chart.js", "CSS"], link: "https://github.com/theresostgard/scb-charts" },
-  { id: "p5", tech: ["C#", "Clean Architecture", "SQL Server", "EF Core", "React", "TypeScript"], link: "https://github.com/theresostgard/SkrapanElevatorSimulator" },
   { id: "p6", tech: ["React", "TypeScript", "CSS", "Vite"], link: "https://github.com/theresostgard/TheresWebPortfolio2026" }
 ];
 
