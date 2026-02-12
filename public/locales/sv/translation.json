@@ -48,6 +48,10 @@
       "p6": {
         "title": "Web Portfolio",
         "description": "Min personliga portföljsida som visar projekt och färdigheter. Byggd med React, TypeScript och Vite."
+      },
+      "p7": {
+        "title": "AdAPI",
+        "description": "En RESTful API för att hantera annonser, byggd med C# och .NET. Den har endpoints för att skapa, hämta, uppdatera och ta bort annonsposter, och är byggt enligt praxis inom API-design och utveckling."
       }
     }
   },

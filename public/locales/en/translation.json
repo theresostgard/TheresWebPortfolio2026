@@ -49,6 +49,10 @@
       "p6": {
         "title": "Web Portfolio",
         "description": "My personal portfolio website showcasing projects and skills. Built with React, TypeScript, and Vite."
+      },
+      "p7": {
+        "title": "AdAPI",
+        "description": "A RESTful API for managing advertisements, built with C# and .NET. It provides endpoints for creating, retrieving, updating, and deleting ad records, demonstrating best practices in API design and development."
       }
     }
   },
