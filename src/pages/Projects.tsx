@@ -1,4 +1,5 @@
 import ProjectCard from "../components/ui/ProjectCard";
+import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next'
 
 const projectsMeta = [
@@ -11,13 +12,13 @@ const projectsMeta = [
 ];
 
 export default function Projects() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
-  const localized = projectsMeta.map(p => ({
+  const localized = useMemo(() => projectsMeta.map(p => ({
     ...p,
     title: t(`projects.items.${p.id}.title`),
     description: t(`projects.items.${p.id}.description`)
-  }));
+  })), [i18n.language]);
 
   return (
     <section className="projects-section">
