@@ -70,3 +70,8 @@ button:focus-visible {
   h1 { font-size: 2.4em; }
   h2 { font-size: 2em; }
 }
+
+.page-loading {
+  margin: 2rem 0;
+  color: var(--text-secondary);
+}

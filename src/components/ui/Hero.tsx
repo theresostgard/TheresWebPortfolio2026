@@ -10,9 +10,7 @@ export default function Hero() {
       <div className="hero-inner">
 
         <h1 className="hero-title">
-          Theres Östgård - fullstack .NET-utvecklare
-
-          <span style={{ display: 'none' }}>{t('hero.title')}</span>
+          {t('hero.title')}
         </h1>
         <p className="hero-sub">{t('hero.subtitle')}</p>
         <p>

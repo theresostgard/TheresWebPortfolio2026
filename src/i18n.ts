@@ -3,7 +3,7 @@ import { initReactI18next } from 'react-i18next';
 import HttpBackend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-i18n
+export const initI18n = i18n
   .use(HttpBackend)
   .use(LanguageDetector)
   .use(initReactI18next)
@@ -13,6 +13,7 @@ i18n
     ns: ['translation'],
     defaultNS: 'translation',
     debug: false,
+    load: 'languageOnly',
     interpolation: { escapeValue: false },
     detection: {
       order: ['querystring', 'localStorage', 'navigator'],
