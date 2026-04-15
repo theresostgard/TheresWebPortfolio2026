@@ -1,12 +1,12 @@
 {
   "about": {
     "title": "About Me",
-    "intro1": "I'm a full-stack .NET developer with hands-on experience building web and mobile applications using React, TypeScript, and React Native.",
-    "intro2": "My background as a teacher has given me strong communication skills and the ability to understand users’ needs, collaborate effectively with teams, and turn complex problems into intuitive, maintainable solutions.",
-    "intro3": "I enjoy crafting well-structured code and creating interfaces that are both functional and user-friendly.",
+    "intro1": "I'm a full-stack .NET developer with hands-on experience building web and mobile apps with React, TypeScript, and React Native.",
+    "intro2": "Before moving into tech, I worked as a teacher, and that background still shapes how I work today. It helps me listen closely, understand what users actually need, collaborate well in teams, and turn complex problems into solutions that are clear and maintainable.",
+    "intro3": "I'm curious by nature and enjoy learning new tools and approaches. Whatever I build, I always aim for it to be secure, robust, accessible, and genuinely useful for the people using it.",
     "skillsTitle": "Skills",
     "skills": [
-      ".NET","C#","EF Core","SQL Server","React","React Native","TypeScript","CSS","Responsive Design","Accessibility","Agile Workflows","Mentoring","Collaboration","Problem-Solving"
+      ".NET","C#","EF Core","SQL Server","React","React Native","TypeScript","CSS","Responsive Design","Accessibility","Agile Workflows","Mentoring","Collaboration","Problem-Solving", "Supabase", "OAuth", "SignalR", "Azure OpenAI", "Vite"
     ]
   }
   ,
@@ -17,48 +17,52 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Theres Östgård - fullstack .NET developer",
-    "subtitle": "I build digital solutions with a variety of technologies.",
+    "title": "Theres Östgård - full-stack .NET developer",
+    "subtitle": "I build thoughtful digital solutions with a range of modern technologies. Curious what I can create? Take a look at my projects below.",
     "cta": "View projects"
   },
   "projects": {
     "title": "Projects",
-    "viewRepo": "View project on GitHub"
-    ,
+    "viewRepo": "View project on GitHub",
+    "viewWebsite": "View website",
     "items": {
       "p1": {
         "title": "Multiplication App",
-        "description": "A multiplication practice app with a playful UI. Focuses on learning through repetition and was a project to explore React Native."
+        "description": "A playful app for practicing multiplication. Built to support learning through repetition while exploring React Native."
       },
       "p2": {
         "title": "ConsoleUtilityHub",
-        "description": "A modular console application with utilities like Calculator, Shapes and Rock Paper Scissors. Built with Spectre.Console for enhanced console UI."
+        "description": "A modular console app with tools such as a calculator, shape utilities, and Rock Paper Scissors. Built with Spectre.Console for a richer CLI experience."
       },
       "p3": {
         "title": "ChatterBox",
-        "description": "A basic customer support chatbot web app with persona and answer limitations. Azure OpenAI is used for bot functionality."
+        "description": "A customer support chatbot web app with a clearly defined persona and response boundaries. Powered by Azure OpenAI."
       },
       "p4": {
         "title": "SCB Charts",
-        "description": "A scalable web application displaying data from Statistics Sweden with interactive charts, focusing on API integration and visualization as well as team collaboration."
+        "description": "A scalable web app that visualizes data from Statistics Sweden through interactive charts. Focused on API integration, data visualization, and team collaboration."
       },
       "p5": {
         "title": "ElevatorSimulator",
-        "description": "A simulation of an elevator system in a high-rise building. Demonstrates Clean Architecture principles in a .NET backend with a React frontend."
+        "description": "An elevator system simulator for a high-rise building. Showcases Clean Architecture principles in a .NET backend with a React frontend."
       },
       "p6": {
         "title": "Web Portfolio",
-        "description": "My personal portfolio website showcasing projects and skills. Built with React, TypeScript, and Vite."
+        "description": "My personal portfolio site where I showcase projects and skills. Built with React, TypeScript, and Vite."
       },
       "p7": {
         "title": "AdAPI",
-        "description": "A RESTful API for managing advertisements, built with C# and .NET. It provides endpoints for creating, retrieving, updating, and deleting ad records, demonstrating best practices in API design and development."
+        "description": "A RESTful API for managing advertisements, built with C# and .NET. It includes endpoints for creating, retrieving, updating, and deleting ad records, following API design best practices."
+      },
+      "p8": {
+        "title": "WhereIsIt",
+        "description": "A mobile app that helps users keep track of their belongings and where they are. Built with React Native and Supabase, with RevenueCat for in-app purchases. In the process of being published to Google Play!"
       }
     }
   },
   "contact": {
     "title": "Contact",
-    "lead": "I'd love to hear about your project, your ideas or your questions, or do you have a job offer? — send a message and I'll get back to you shortly.",
+    "lead": "I'd love to hear about your project, your ideas, or your questions. If you have a job opportunity, feel free to reach out and I'll get back to you as soon as I can.",
     "getInTouch": "Get in touch",
     "emailNote": "Prefer email? Send a note to {{email}}.",
     "phone": "Phone:",

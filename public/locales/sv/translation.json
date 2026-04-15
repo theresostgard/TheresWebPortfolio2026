@@ -1,12 +1,12 @@
 {
   "about": {
     "title": "Om mig",
-    "intro1": "Jag är en fullstack .NET-utvecklare med erfarenhet av att bygga webb- och mobilapplikationer med React, TypeScript och React Native.",
-    "intro2": "Min bakgrund som lärare har gett mig goda kommunikationsfärdigheter och förmågan att förstå användarnas behov, samarbeta effektivt i team och omvandla komplexa problem till underhållbara lösningar.",
-    "intro3": "Jag tycker om att skapa välstrukturerad kod och gränssnitt som både är funktionella och användarvänliga.",
+    "intro1": "Jag är en full-stack .NET-utvecklare med erfarenhet av att bygga webb- och mobilapplikationer med React, TypeScript och React Native.",
+    "intro2": "Min bakgrund som lärare har gett mig goda kommunikationsfärdigheter och förmågan att förstå användarnas behov, samarbeta effektivt i team och omvandla komplexa problem till underhållbara lösningar. Jag lägger mycket tid på att förstå användarens perspektiv och strävar alltid efter att skapa lösningar som är både tekniskt solida och användarvänliga.",
+    "intro3": "Jag är nyfiken av naturen och är inte rädd för att prova något jag inte testat tidigare. Mitt fokus är alltid att det jag bygger ska vara säkert, robust och tillgängligt.",
     "skillsTitle": "Färdigheter",
     "skills": [
-      ".NET","C#","EF Core","SQL Server","React","React Native","TypeScript","CSS","Responsiv design","Tillgänglighet","Agila arbetssätt","Mentorskap","Samarbete","Problemlösning"
+      ".NET","C#","EF Core","SQL Server","React","React Native","TypeScript","CSS","Responsiv design","Tillgänglighet","Agila arbetssätt","Mentorskap","Samarbete","Problemlösning", "Supabase", "OAuth", "SignalR", "Azure OpenAI", "Vite"
     ]
   }
   ,
@@ -17,29 +17,30 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "title": "Theres Östgård - fullstack .NET-utvecklare",
-    "subtitle": "Jag bygger digitala lösningar med olika språk och teknologier.",
+    "title": "Theres Östgård - full-stack .NET-utvecklare",
+    "subtitle": "Jag bygger digitala lösningar med flera olika teknologier. Är du nyfiken på vad jag kan göra? Ta en titt på mina projekt nedan.",
     "cta": "Se projekt"
   },
   "projects": {
     "title": "Projekt",
     "viewRepo": "Visa projekt på GitHub",
+    "viewWebsite": "Visa webbsida",
     "items": {
       "p1": {
         "title": "Multiplication App",
-        "description": "En app för att öva multiplikation med ett lekfullt gränssnitt. Fokuserar på inlärning genom repetition och användes för att utforska React Native."
+        "description": "En lekfull app för att öva multiplikation. Byggd för lärande genom repetition och som ett sätt att utforska React Native."
       },
       "p2": {
         "title": "ConsoleUtilityHub",
-        "description": "En modulär konsolapplikation med verktyg som kalkylator, figurer och sten sax påse. Byggd med Spectre.Console för bättre konsol-UI."
+        "description": "En modulär konsolapp med verktyg som kalkylator, figurverktyg och sten-sax-påse. Byggd med Spectre.Console för en bättre CLI-upplevelse."
       },
       "p3": {
         "title": "ChatterBox",
-        "description": "En enkel chattbot-webbapplikation för kundsupport med definierad persona och begränsningar i svar. Azure OpenAI används för botfunktionaliteten."
+        "description": "En webbapp för kundsupport med en tydligt definierad persona och avgränsade svar. Byggd med Azure OpenAI."
       },
       "p4": {
         "title": "SCB Charts",
-        "description": "En skalbar webbapplikation som visar data från Statistiska centralbyrån med interaktiva diagram. Uppgiften fokuserade på API-integration och datavisualisering samt samarbete i team."
+        "description": "En skalbar webbapp som visualiserar data från Statistiska centralbyrån med interaktiva diagram. Fokus låg på API-integration, datavisualisering och samarbete i team."
       },
       "p5": {
         "title": "ElevatorSimulator",
@@ -47,17 +48,21 @@
       },
       "p6": {
         "title": "Web Portfolio",
-        "description": "Min personliga portföljsida som visar projekt och färdigheter. Byggd med React, TypeScript och Vite."
+        "description": "Min personliga portfoliosida där jag visar projekt och färdigheter. Byggd med React, TypeScript och Vite."
       },
       "p7": {
         "title": "AdAPI",
-        "description": "En RESTful API för att hantera annonser, byggd med C# och .NET. Den har endpoints för att skapa, hämta, uppdatera och ta bort annonsposter, och är byggt enligt praxis inom API-design och utveckling."
+        "description": "Ett RESTful API för att hantera annonser, byggt med C# och .NET. Det innehåller endpoints för att skapa, hämta, uppdatera och ta bort annonsposter enligt god praxis för API-design och utveckling."
+      },
+      "p8": {
+        "title": "WhereIsIt",
+        "description": "En mobilapplikation för att hjälpa användare hålla reda på sina föremål och deras platser. Byggd med React Native, TypeScript, Supabase och använder RevenueCat för köp i appen. I processen att publiceras på Google Play!"
       }
     }
   },
   "contact": {
     "title": "Kontakt",
-    "lead": "Jag vill gärna höra om ditt projekt, dina idéer eller dina frågor, eller har du ett jobberbjudande? — skicka ett meddelande så återkommer jag så snart jag kan.",
+    "lead": "Jag vill gärna höra om ditt projekt, dina idéer eller dina frågor. Har du ett jobberbjudande är du också varmt välkommen att höra av dig, så återkommer jag så snart jag kan.",
     "getInTouch": "Ta kontakt",
     "emailNote": "Föredrar du e-post? Skicka ett meddelande till {{email}}.",
     "phone": "Telefon:",

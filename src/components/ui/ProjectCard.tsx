@@ -7,11 +7,13 @@ type Project = {
   description?: string;
   tech?: string[];
   link?: string;
+  actionLabelKey?: string;
 };
 
 export default function ProjectCard({ project }: { project: Project }) {
   const { t } = useTranslation();
   const headingId = `project-title-${project.id}`;
+  const actionLabelKey = project.actionLabelKey ?? 'projects.viewRepo';
 
   return (
     <article className="project-card" aria-labelledby={headingId}>
@@ -44,9 +46,9 @@ export default function ProjectCard({ project }: { project: Project }) {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label={t('projects.viewRepo', { title: project.title })}
+              aria-label={t(actionLabelKey, { title: project.title })}
             >
-              {t('projects.viewRepo')}
+              {t(actionLabelKey)}
             </a>
           </div>
         )}

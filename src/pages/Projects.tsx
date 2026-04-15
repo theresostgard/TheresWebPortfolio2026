@@ -8,7 +8,13 @@ const projectsMeta = [
   { id: "p3", tech: ["C#", ".NET", "Azure OpenAI", "CSS"], link: "https://github.com/theresostgard/ChatterBox" },
   { id: "p4", tech: ["TypeScript", "API", "React", "Chart.js", "CSS"], link: "https://github.com/theresostgard/scb-charts" },
   { id: "p6", tech: ["React", "TypeScript", "CSS", "Vite"], link: "https://github.com/theresostgard/TheresWebPortfolio2026" },
-  {id: "p7", tech: ["C#", ".NET", "API", "RESTful"], link: "https://github.com/theresostgard/AdAPI"}
+  { id: "p7", tech: ["C#", ".NET", "API", "RESTful"], link: "https://github.com/theresostgard/AdAPI" },
+  {
+    id: "p8",
+    tech: ["React Native", "TypeScript", "Supabase", "RevenueCat"],
+    link: "https://www.whereisit.se/",
+    actionLabelKey: "projects.viewWebsite"
+  }
 ];
 
 export default function Projects() {
